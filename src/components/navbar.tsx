@@ -15,7 +15,7 @@ const Navbar = () => {
         <NavigationMenuList className="flex items-center gap-16">
           <NavigationMenuItem>
             <NavigationMenuLink
-              className="text-white hover:text-blue-300 transition-colors"
+              className="text-white hover:text-gray-600 transition-colors"
               href="#home"
             >
               Home
@@ -23,7 +23,7 @@ const Navbar = () => {
           </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuLink
-              className="text-white hover:text-blue-300 transition-colors"
+              className="text-white hover:text-gray-600 transition-colors"
               href="#about"
             >
               About
@@ -31,7 +31,7 @@ const Navbar = () => {
           </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuLink
-              className="text-white hover:text-blue-300 transition-colors"
+              className="text-white hover:text-gray-600 transition-colors"
               href="#contact"
             >
               Contact
