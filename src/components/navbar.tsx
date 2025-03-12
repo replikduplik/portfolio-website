@@ -32,6 +32,14 @@ const Navbar = () => {
           <NavigationMenuItem>
             <NavigationMenuLink
               className="text-white hover:text-gray-600 transition-colors"
+              href="#portfolio"
+            >
+              Portfolio
+            </NavigationMenuLink>
+          </NavigationMenuItem>
+          <NavigationMenuItem>
+            <NavigationMenuLink
+              className="text-white hover:text-gray-600 transition-colors"
               href="#contact"
             >
               Contact

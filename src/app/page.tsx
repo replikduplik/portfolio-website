@@ -3,6 +3,7 @@
 import React from 'react';
 import Navbar from '@/components/navbar';
 import Contact from '@/components/contact';
+import Portfolio from '@/components/portfolio';
 const Page = () => {
   return (
     <div className="relative min-h-screen scroll-smooth">
@@ -50,8 +51,13 @@ const Page = () => {
           </div>
         </section>
 
+        {/* Portfolio Section */}
+        <section id="portfolio" className="flex justify-center items-center">
+          <Portfolio />
+        </section>
+
         {/* Contact Section */}
-        <section id="contact">
+        <section id="contact" className="bg-white/10">
           <Contact />
         </section>
       </div>
