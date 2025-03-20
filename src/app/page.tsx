@@ -5,6 +5,7 @@ import Navbar from '@/components/navbar';
 import Contact from '@/components/contact';
 import Portfolio from '@/components/portfolio';
 import About from '@/components/about';
+import ThemeToggle from '@/components/themetoggle';
 
 const Page = () => {
   return (
@@ -21,7 +22,8 @@ const Page = () => {
       <div className="relative z-10">
         {/* Navbar */}
         <Navbar />
-
+        {/* Theme Toggle Button */}
+        <ThemeToggle />
         {/* Hero Section */}
         <section id="home" className="min-h-screen flex items-center justify-center px-4">
           <div className="text-center text-white">
