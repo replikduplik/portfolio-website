@@ -1,8 +1,14 @@
 # Portfolio Website
 
-A single-page portfolio template (hero, about, project cards, contact form) built for practice with Next.js 16, React 19, TypeScript, Tailwind CSS 4 and shadcn/ui.
+A single-page portfolio template I built for practice with Next.js 16, React 19, TypeScript, Tailwind CSS 4 and shadcn/ui. It has four sections: hero, about, project cards and a contact form. All text is placeholder (lorem ipsum), so it is meant to be cloned and filled in, not used as-is.
 
-Live: https://portfolio-website-taupe-sigma-42.vercel.app
+## Screenshots
+
+![Hero section](docs/screenshots/home.jpg)
+
+![Project cards](docs/screenshots/portfolio.jpg)
+
+![Contact form](docs/screenshots/contact.jpg)
 
 ## Run locally
 
@@ -31,5 +37,4 @@ public/images/      background image
 - Text: edit the components in `src/components/` and `src/app/page.tsx`.
 - Projects: edit the `projects` array in `src/components/portfolio.tsx`.
 - Contact form: replace `you@example.com` in `src/components/contact.tsx`.
-
-Pushing to `master` deploys to Vercel.
+- Background: replace `public/images/background.jpg`.
