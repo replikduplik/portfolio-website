@@ -1,20 +1,23 @@
-'use client';
-
-import React from 'react';
+import Image from 'next/image';
 import Navbar from '@/components/navbar';
 import Contact from '@/components/contact';
 import Portfolio from '@/components/portfolio';
 import About from '@/components/about';
-import ThemeToggle from '@/components/themetoggle';
 
 const Page = () => {
   return (
-    <div className="relative min-h-screen scroll-smooth">
+    <div className="relative min-h-screen">
       {/* Background Image */}
-      <div
-        className="fixed inset-0 z-0 bg-cover bg-center"
-        style={{ backgroundImage: 'url(/images/background.jpg)' }}
-      />
+      <div className="fixed inset-0 z-0">
+        <Image
+          src="/images/background.jpg"
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+        />
+      </div>
 
       <div className="fixed inset-0 z-0 bg-black opacity-50" />
 
@@ -22,8 +25,6 @@ const Page = () => {
       <div className="relative z-10">
         {/* Navbar */}
         <Navbar />
-        {/* Theme Toggle Button */}
-        <ThemeToggle />
         {/* Hero Section */}
         <section id="home" className="min-h-screen flex items-center justify-center px-4">
           <div className="text-center text-white">
