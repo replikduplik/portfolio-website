@@ -66,3 +66,7 @@ src/components/ui/  shadcn/ui components
 public/images/      background image
 docs/screenshots/   images used in this README
 ```
+
+## License
+
+[MIT](LICENSE)
