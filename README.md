@@ -26,6 +26,8 @@ A single-page portfolio starter built with Next.js, Tailwind CSS and shadcn/ui. 
 
 Needs Node.js 20.9+ and pnpm.
 
+Click **Use this template** on GitHub to create your own copy, or clone this repo directly:
+
 ```bash
 git clone https://github.com/replikduplik/portfolio-website.git my-portfolio
 cd my-portfolio
