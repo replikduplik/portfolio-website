@@ -1,5 +1,3 @@
-'use client';
-import React from 'react';
 import {
   Card,
   CardHeader,
@@ -47,10 +45,6 @@ const projects: Project[] = [
 
 
 const Portfolio = () => {
-  const handleVisitSite = (url: string) => {
-    window.open(url, '_blank', 'noopener,noreferrer');
-  };
-
   return (
     <div className="min-h-screen flex items-center justify-center bg-black/30 backdrop-blur-sm px-4 py-16">
       <div className="max-w-7xl w-full mx-auto">
@@ -75,11 +69,10 @@ const Portfolio = () => {
                 </div>
               </CardContent>
               <CardFooter>
-                <Button
-                  onClick={() => handleVisitSite(project.url)}
-                  className="w-full bg-white/20 hover:bg-white/30 text-white"
-                >
-                  Visit Site <ExternalLink className="ml-2 h-4 w-4" />
+                <Button asChild className="w-full bg-white/20 hover:bg-white/30 text-white">
+                  <a href={project.url} target="_blank" rel="noopener noreferrer">
+                    Visit Site <ExternalLink className="ml-2 h-4 w-4" />
+                  </a>
                 </Button>
               </CardFooter>
             </Card>
